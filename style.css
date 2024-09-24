@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+.main .bottom-left-image {
+  position: absolute;
+  bottom: 0px; 
+  left: 0px; 
+  width: 200px;
+}
+.main .top-right-image {
+  position: absolute;
+  top: 0px; 
+  right: 0px; 
+  width: 177px;
+}
+
+.main .top-left-image {
+  position: absolute;
+  top: 0px; 
+  left: 0px; 
+  width: 180px;
+}
+.image-container-right-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.image-container-right-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.image-container-right-bottom img {
+  width: 350px;
+  height: 40px;
+}
+
+
+.main {
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .image-container {
+  padding: 10px;
+}
+
+.main .image-container .image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .image-container .image img {
+  width: 140px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.main .image-container h1 {
+  color: #e21a1a94;
+  text-align: center;
+  margin-bottom: px;
+  font-size: 130px;
+}
+
+.main .image-container p {
+  color: #cc860ef0;
+  text-align: center;
+  margin-bottom:1px;
+  font-size: 20px;
+}
+
+.main .input {
+  display: flex;
+  width: 40vw;
+  height: 50px;
+  border-radius: 20px;
+  margin-bottom:-100px;
+  background: rgba(119, 171, 223, 0.492);
+}
+
+.main .input .talk {
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 350px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.main .input .talk i {
+  font-size: 40px;
+  margin-top: -20px;
+  color: #910808;
+  margin-right:280px;
+}
+
+.main .input .content {
+  color: #030b53e3;
+  margin-top: 12px;
+  font-size: 23px;
+  margin-right:24px;
+}
+
+.main {
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("ironmatbgg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
